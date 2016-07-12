@@ -87,15 +87,15 @@ foreach my $cell (@cell) {
   # our fall-through
   $security = 'none' unless $encryption eq 'on';
 
-  say "essid: $essid\n";
-  say "channel: $channel\n";
-  say "MAC: $mac\n";
-  say "mode: $mode\n";
-  say "encrypted: $encryption\n";
-  say "security: $security\n";
-  say "signal: $signalnumbers\n";
-  say "quality: $signalquality\n";
-  say "\n";
+  say "essid: $essid";
+  say "channel: $channel";
+  say "MAC: $mac";
+  say "mode: $mode";
+  say "encrypted: $encryption";
+  say "security: $security";
+  say "signal: $signalnumbers";
+  say "quality: $signalquality";
+  print "\n";
 }
 
 my $cells = @cell;
